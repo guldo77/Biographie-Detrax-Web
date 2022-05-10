@@ -1,0 +1,84 @@
+body {
+
+
+background-image: url(./Image/github.jpg);
+background-attachment: fixed;
+
+
+
+}
+
+
+#LogoGithub {
+
+width: 130px;
+margin-bottom: -10%;
+
+}
+
+
+@font-face {
+
+  font-family: Infected;
+  src: url(Police/INFECTED.ttf);
+
+}
+
+h1 {
+
+font-family: Infected;
+text-align: center;
+color: #933030;
+font-size: 80px;
+text-shadow: 3px 3px 3px #57805B;
+
+}
+
+
+
+/*******  SLIDER ANIMATIONS  ******/
+
+.slider {
+  border-radius: 50px;
+  width: 1544px;
+  height: 2000px;
+  overflow: hidden;
+  margin: 150px auto;
+  background-attachment: fixed;
+}
+.slides {
+
+  width: calc(1544px * 2);
+  animation: glisse 10s infinite;
+
+}
+
+.slide {
+
+float: left;
+
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  33% {
+    transform: translateY(-600px);
+  }
+  43% {
+    transform: translateY(-500px);
+  }
+  66% {
+    transform: translateY(-1000px);
+  }
+  76% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
